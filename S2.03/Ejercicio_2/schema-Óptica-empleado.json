@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "_id",
+    "apellido",
+    "correo_electronico",
+    "fecha_de_entrada",
+    "id_empleado",
+    "nombre",
+    "telefono"
+  ],
+  "properties": {
+    "_id": {
+      "$ref": "#/$defs/ObjectId"
+    },
+    "apellido": {
+      "type": "string"
+    },
+    "correo_electronico": {
+      "type": "string"
+    },
+    "fecha_de_entrada": {
+      "$ref": "#/$defs/Date"
+    },
+    "id_empleado": {
+      "type": "integer"
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "string"
+    }
+  },
+  "$defs": {
+    "ObjectId": {
+      "type": "object",
+      "properties": {
+        "$oid": {
+          "type": "string",
+          "pattern": "^[0-9a-fA-F]{24}$"
+        }
+      },
+      "required": [
+        "$oid"
+      ],
+      "additionalProperties": false
+    },
+    "Date": {
+      "type": "object",
+      "properties": {
+        "$date": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "$date"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

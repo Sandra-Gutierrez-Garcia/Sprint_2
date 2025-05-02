@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "_id",
+    "color_de_montura",
+    "color_de_vidrio",
+    "graduacion_derecho",
+    "graduacion_izquierdo",
+    "id_Cliente",
+    "id_gafa",
+    "id_Ventas_Cliente",
+    "nombre",
+    "precio",
+    "tipo_de_montura"
+  ],
+  "properties": {
+    "_id": {
+      "$ref": "#/$defs/ObjectId"
+    },
+    "color_de_montura": {
+      "type": "string"
+    },
+    "color_de_vidrio": {
+      "type": "string"
+    },
+    "graduacion_derecho": {
+      "type": "integer"
+    },
+    "graduacion_izquierdo": {
+      "type": "integer"
+    },
+    "id_Cliente": {
+      "type": "integer"
+    },
+    "id_gafa": {
+      "type": "integer"
+    },
+    "id_Ventas_Cliente": {
+      "type": "integer"
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "precio": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Double"
+        },
+        {
+          "type": "integer"
+        }
+      ]
+    },
+    "tipo_de_montura": {
+      "type": "string"
+    }
+  },
+  "$defs": {
+    "ObjectId": {
+      "type": "object",
+      "properties": {
+        "$oid": {
+          "type": "string",
+          "pattern": "^[0-9a-fA-F]{24}$"
+        }
+      },
+      "required": [
+        "$oid"
+      ],
+      "additionalProperties": false
+    },
+    "Double": {
+      "oneOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "$numberDouble": {
+              "enum": [
+                "Infinity",
+                "-Infinity",
+                "NaN"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}
