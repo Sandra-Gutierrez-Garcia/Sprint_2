@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "6811144ec44aaaea9d156366"
+  },
+  "id_empleado": 1,
+  "nombre": "María",
+  "apellido": "González",
+  "telefono": "+34 612345678",
+  "fecha_de_entrada": {
+    "$date": "2020-05-15T00:00:00.000Z"
+  },
+  "correo_electronico": "maria.gonzalez@empresa.com"
+},
+{
+  "_id": {
+    "$oid": "6811144ec44aaaea9d156367"
+  },
+  "id_empleado": 2,
+  "nombre": "Carlos",
+  "apellido": "Martínez",
+  "telefono": "+34 687654321",
+  "fecha_de_entrada": {
+    "$date": "2019-11-22T00:00:00.000Z"
+  },
+  "correo_electronico": "carlos.martinez@empresa.com"
+},
+{
+  "_id": {
+    "$oid": "6811144ec44aaaea9d156368"
+  },
+  "id_empleado": 3,
+  "nombre": "Ana",
+  "apellido": "Rodríguez",
+  "telefono": "+34 699112233",
+  "fecha_de_entrada": {
+    "$date": "2021-02-10T00:00:00.000Z"
+  },
+  "correo_electronico": "ana.rodriguez@empresa.com"
+},
+{
+  "_id": {
+    "$oid": "6811144ec44aaaea9d156369"
+  },
+  "id_empleado": 4,
+  "nombre": "Javier",
+  "apellido": "López",
+  "telefono": "+34 655443322",
+  "fecha_de_entrada": {
+    "$date": "2018-07-30T00:00:00.000Z"
+  },
+  "correo_electronico": "javier.lopez@empresa.com"
+},
+{
+  "_id": {
+    "$oid": "6811144ec44aaaea9d15636a"
+  },
+  "id_empleado": 5,
+  "nombre": "Sofía",
+  "apellido": "Hernández",
+  "telefono": "+34 677889900",
+  "fecha_de_entrada": {
+    "$date": "2022-01-05T00:00:00.000Z"
+  },
+  "correo_electronico": "sofia.hernandez@empresa.com"
+}]

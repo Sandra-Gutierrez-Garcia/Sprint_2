@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "68111503c44aaaea9d15636c"
+  },
+  "id_venta": 1,
+  "fecha": {
+    "$date": "2023-01-15T10:30:00.000Z"
+  },
+  "id_empleado": 2,
+  "id_cliente": 3,
+  "id_gafa": 1,
+  "tipo_de_pago": "efectivo"
+},
+{
+  "_id": {
+    "$oid": "68111503c44aaaea9d15636d"
+  },
+  "id_venta": 2,
+  "fecha": {
+    "$date": "2023-01-16T14:45:00.000Z"
+  },
+  "id_empleado": 1,
+  "id_cliente": 5,
+  "id_gafa": 2,
+  "tipo_de_pago": "tarjeta_credito"
+},
+{
+  "_id": {
+    "$oid": "68111503c44aaaea9d15636e"
+  },
+  "id_venta": 3,
+  "fecha": {
+    "$date": "2023-01-17T11:20:00.000Z"
+  },
+  "id_empleado": 4,
+  "id_cliente": 2,
+  "id_gafa": 3,
+  "tipo_de_pago": "efectivo"
+}]
