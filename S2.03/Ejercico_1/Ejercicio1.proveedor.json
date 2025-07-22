@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "687cdd0bce1377d4341b78f1"
+  },
+  "ID_proveedor": 1,
+  "Nombre": "Ópticos Generales",
+  "Dirección": {
+    "Calle": "Avenida de la Luz",
+    "Número": 10,
+    "Piso": 1,
+    "Puerta": 2,
+    "Ciudad": "Madrid",
+    "Código_postal": "28015",
+    "País": "España"
+  },
+  "Teléfono": "+34 914 444 555",
+  "Fax": "+34 914 444 556",
+  "NIF": "A11222333"
+},
+{
+  "_id": {
+    "$oid": "687cdd0bce1377d4341b78f2"
+  },
+  "ID_proveedor": 2,
+  "Nombre": "Distribuciones Visuales S.A.",
+  "Dirección": {
+    "Calle": "Calle Visión",
+    "Número": 5,
+    "Piso": 3,
+    "Puerta": 10,
+    "Ciudad": "Barcelona",
+    "Código_postal": "08009",
+    "País": "España"
+  },
+  "Teléfono": "+34 933 999 888",
+  "Fax": "+34 933 999 889",
+  "NIF": "B44555666"
+},
+{
+  "_id": {
+    "$oid": "687cdd0bce1377d4341b78f3"
+  },
+  "ID_proveedor": 3,
+  "Nombre": "Óptica Técnica Europea",
+  "Dirección": {
+    "Calle": "Paseo Óptico",
+    "Número": 15,
+    "Piso": 2,
+    "Puerta": 7,
+    "Ciudad": "Valencia",
+    "Código_postal": "46002",
+    "País": "España"
+  },
+  "Teléfono": "+34 963 777 666",
+  "Fax": "+34 963 777 667",
+  "NIF": "C77888999"
+}]

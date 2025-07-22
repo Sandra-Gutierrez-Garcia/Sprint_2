@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "687d1056ce1377d4341b791f"
+  },
+  "ID_marca": 1,
+  "nombre": "BubbleVision",
+  "ID_proveedor": 1,
+  "proveedor_nombre": "Ópticos Generales"
+},
+{
+  "_id": {
+    "$oid": "687d1056ce1377d4341b7920"
+  },
+  "ID_marca": 2,
+  "nombre": "UrbanLook",
+  "ID_proveedor": 2,
+  "proveedor_nombre": "Distribuciones Visuales S.A."
+}]

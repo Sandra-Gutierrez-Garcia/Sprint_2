@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "667ce250ce1377d4341b791a"
+  },
+  "ID_compra": 1,
+  "ID_cliente": 1,
+  "ID_gafa": 1,
+  "fecha_compra": "2023-05-10T11:30:00.000Z",
+  "graduacion": {
+    "izquierda": 2,
+    "derecha": 2
+  },
+  "tipo_montura": "Netallic",
+  "color_montura": "negro",
+  "precio_final": 127.5
+},
+{
+  "_id": {
+    "$oid": "667ce250ce1377d4341b791b"
+  },
+  "ID_compra": 2,
+  "ID_cliente": 2,
+  "ID_gafa": 3,
+  "fecha_compra": "2023-06-18T14:20:00.000Z",
+  "graduacion": {
+    "izquierda": 1.75,
+    "derecha": 1.25
+  },
+  "tipo_montura": "pasta",
+  "color_montura": "azul",
+  "precio_final": 95
+}]

@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "687d5060ce1377d4341b7987"
+  },
+  "nombre": "María González López",
+  "telefono": "+34 611 223 344",
+  "ID_empleado": 1
+},
+{
+  "_id": {
+    "$oid": "687d5060ce1377d4341b7988"
+  },
+  "nombre": "Carlos Ruiz Martínez",
+  "telefono": "+34 622 334 455",
+  "ID_empleado": 2
+},
+{
+  "_id": {
+    "$oid": "687d5060ce1377d4341b7989"
+  },
+  "nombre": "Laura Fernández Sánchez",
+  "telefono": "+34 633 445 566",
+  "ID_empleado": 3
+}]
