@@ -1,30 +1,89 @@
-[{
-  "_id": {
-    "$oid": "687fefc5ce1377d4341b79ab"
+[
+  {
+    "ID_venta": 1,
+    "fecha_hora": "2025-07-23T10:15:00",
+    "precio": 127.5,
+    "cliente": {
+      "ID_cliente": 2,
+      "Nombre": "Carlos Ruiz",
+      "Dirección_postal": "Avenida Sol 45, Barcelona",
+      "Teléfono": "+34 699 333 444",
+      "Email": "carlos@example.com"
+    },
+    "gafa": {
+      "ID_gafa": 3,
+      "Marca_nombre": "SportShield",
+      "Tipo_montura": "flotante",
+      "Color_montura": "rojo",
+      "Precio": 129.99,
+      "Proveedor_nombre": "Óptica Técnica Europea"
+    },
+    "empleado": {
+      "ID_empleado": 1,
+      "nombre": "María González López"
+    },
+    "proveedor": {
+      "ID_proveedor": 3,
+      "Nombre": "Óptica Técnica Europea",
+      "Teléfono": "+34 963 777 666"
+    }
   },
-  "precio": 127.5,
-  "ID_cliente": 2,
-  "ID_marca": 3,
-  "ID_proveedor": 1,
-  "montura": "flotante"
-},
-{
-  "_id": {
-    "$oid": "687fefc5ce1377d4341b79ac"
+  {
+    "ID_venta": 2,
+    "fecha_hora": "2025-07-23T11:00:00",
+    "precio": 89.99,
+    "cliente": {
+      "ID_cliente": 1,
+      "Nombre": "Ana López",
+      "Dirección_postal": "Calle Principal 123, Madrid",
+      "Teléfono": "+34 600 111 222",
+      "Email": "ana@example.com"
+    },
+    "gafa": {
+      "ID_gafa": 1,
+      "Marca_nombre": "BubbleVision",
+      "Tipo_montura": "pasta",
+      "Color_montura": "azul",
+      "Precio": 89.99,
+      "Proveedor_nombre": "Ópticos Generales"
+    },
+    "empleado": {
+      "ID_empleado": 2,
+      "nombre": "Carlos Ruiz Martínez"
+    },
+    "proveedor": {
+      "ID_proveedor": 1,
+      "Nombre": "Ópticos Generales",
+      "Teléfono": "+34 914 444 555"
+    }
   },
-  "precio": 89.99,
-  "ID_cliente": 1,
-  "ID_marca": 1,
-  "ID_proveedor": 3,
-  "montura": "pasta"
-},
-{
-  "_id": {
-    "$oid": "687fefc5ce1377d4341b79ad"
-  },
-  "precio": 155.2,
-  "ID_cliente": 3,
-  "ID_marca": 2,
-  "ID_proveedor": 2,
-  "montura": "metálica"
-}]
+  {
+    "ID_venta": 3,
+    "fecha_hora": "2025-07-23T12:30:00",
+    "precio": 155.2,
+    "cliente": {
+      "ID_cliente": 3,
+      "Nombre": "María García",
+      "Dirección_postal": "Plaza Mayor 8, Valencia",
+      "Teléfono": null,
+      "Email": null
+    },
+    "gafa": {
+      "ID_gafa": 2,
+      "Marca_nombre": "UrbanLook",
+      "Tipo_montura": "metálica",
+      "Color_montura": "negro",
+      "Precio": 149.5,
+      "Proveedor_nombre": "Distribuciones Visuales S.A."
+    },
+    "empleado": {
+      "ID_empleado": 3,
+      "nombre": "Laura Fernández Sánchez"
+    },
+    "proveedor": {
+      "ID_proveedor": 2,
+      "Nombre": "Distribuciones Visuales S.A.",
+      "Teléfono": "+34 933 999 888"
+    }
+  }
+]

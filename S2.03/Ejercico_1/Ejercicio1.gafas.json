@@ -1,84 +1,65 @@
-[{
-  "_id": {
-    "$oid": "687d4c44ce1377d4341b797e"
+[
+  {
+    "ID_gafa": 1,
+    "ID_marca": 1,
+    "nombre_marca": "BubbleVision",
+    "Graduacion_vidrios": {
+      "vidrio_derecho": -0.5,
+      "vidrio_izquierdo": -0.75
+    },
+    "Tipo_montura": {
+      "enum": ["flotante", "pasta", "metálica"],
+      "valor": "pasta"
+    },
+    "Color_montura": "azul",
+    "Color_vidrios": {
+      "vidrio_derecho": "transparente",
+      "vidrio_izquierdo": "transparente"
+    },
+    "Precio": 89.99,
+    "ID_proveedor": 1,
+    "Nombre_proveedor": "Ópticos Generales"
   },
-  "ID_gafa": 1,
-  "ID_marca": 1,
-  "Marca_nombre": "BubbleVision",
-  "Graduacion_vidrios": {
-    "vidrio_derecho": -0.5,
-    "vidrio_izquierdo": -0.75
+  {
+    "ID_gafa": 2,
+    "ID_marca": 2,
+    "nombre_marca": "UrbanLook",
+    "Graduacion_vidrios": {
+      "vidrio_derecho": -1.25,
+      "vidrio_izquierdo": -1.5
+    },
+    "Tipo_montura": {
+      "enum": ["flotante", "pasta", "metálica"],
+      "valor": "metálica"
+    },
+    "Color_montura": "negro",
+    "Color_vidrios": {
+      "vidrio_derecho": "ahumado",
+      "vidrio_izquierdo": "ahumado"
+    },
+    "Precio": 149.5,
+    "ID_proveedor": 2,
+    "Nombre_proveedor": "Distribuciones Visuales S.A."
   },
-  "Tipo_montura": {
-    "enum": [
-      "flotante",
-      "pasta",
-      "metálica"
-    ],
-    "valor": "pasta"
-  },
-  "Color_montura": "azul",
-  "Color_vidrios": {
-    "vidrio_derecho": "transparente",
-    "vidrio_izquierdo": "transparente"
-  },
-  "Precio": 89.99,
-  "ID_proveedor": 1,
-  "Proveedor_nombre": "Ópticos Generales"
-},
-{
-  "_id": {
-    "$oid": "687d4c44ce1377d4341b797f"
-  },
-  "ID_gafa": 2,
-  "ID_marca": 2,
-  "Marca_nombre": "UrbanLook",
-  "Graduacion_vidrios": {
-    "vidrio_derecho": -1.25,
-    "vidrio_izquierdo": -1.5
-  },
-  "Tipo_montura": {
-    "enum": [
-      "flotante",
-      "pasta",
-      "metálica"
-    ],
-    "valor": "metálica"
-  },
-  "Color_montura": "negro",
-  "Color_vidrios": {
-    "vidrio_derecho": "ahumado",
-    "vidrio_izquierdo": "ahumado"
-  },
-  "Precio": 149.5,
-  "ID_proveedor": 2,
-  "Proveedor_nombre": "Distribuciones Visuales S.A."
-},
-{
-  "_id": {
-    "$oid": "687d4c44ce1377d4341b7980"
-  },
-  "ID_gafa": 3,
-  "ID_marca": 3,
-  "Marca_nombre": "SportShield",
-  "Graduacion_vidrios": {
-    "vidrio_derecho": 0,
-    "vidrio_izquierdo": 0
-  },
-  "Tipo_montura": {
-    "enum": [
-      "flotante",
-      "pasta",
-      "metálica"
-    ],
-    "valor": "flotante"
-  },
-  "Color_montura": "rojo",
-  "Color_vidrios": {
-    "vidrio_derecho": "espejo",
-    "vidrio_izquierdo": "espejo"
-  },
-  "Precio": 129.99,
-  "ID_proveedor": 3,
-  "Proveedor_nombre": "Óptica Técnica Europea"
-}]
+  {
+    "ID_gafa": 3,
+    "ID_marca": 3,
+    "nombre_marca": "SportShield",
+    "Graduacion_vidrios": {
+      "vidrio_derecho": 0,
+      "vidrio_izquierdo": 0
+    },
+    "Tipo_montura": {
+      "enum": ["flotante", "pasta", "metálica"],
+      "valor": "flotante"
+    },
+    "Color_montura": "rojo",
+    "Color_vidrios": {
+      "vidrio_derecho": "espejo",
+      "vidrio_izquierdo": "espejo"
+    },
+    "Precio": 129.99,
+    "ID_proveedor": 3,
+    "Nombre_proveedor": "Óptica Técnica Europea"
+  }
+]
